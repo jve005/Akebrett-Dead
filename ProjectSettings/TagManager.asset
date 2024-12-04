@@ -45,7 +45,7 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: ScreenBarriers
+  - name: ScreenBorder
     uniqueID: 1840266121
     locked: 0
   m_RenderingLayers:
