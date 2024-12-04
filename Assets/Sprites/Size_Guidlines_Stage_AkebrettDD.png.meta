@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Size_Guidlines_Stage_AkebrettDD_0: 2199850121320585505
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
