@@ -163,7 +163,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1082697677697810009, guid: aede4d24d4325fb46aec35f9b6b302d5, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -10
+      value: -0.19
       objectReference: {fileID: 0}
     - target: {fileID: 1082697677697810009, guid: aede4d24d4325fb46aec35f9b6b302d5, type: 3}
       propertyPath: m_LocalPosition.z
@@ -198,21 +198,21 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2621887647284773263, guid: aede4d24d4325fb46aec35f9b6b302d5, type: 3}
-      propertyPath: Chunk
-      value: 
-      objectReference: {fileID: 2764088213797799001, guid: aede4d24d4325fb46aec35f9b6b302d5, type: 3}
-    - target: {fileID: 2621887647284773263, guid: aede4d24d4325fb46aec35f9b6b302d5, type: 3}
       propertyPath: spawnPoint
       value: 
-      objectReference: {fileID: 1237304045}
+      objectReference: {fileID: 966466907}
     - target: {fileID: 2621887647284773263, guid: aede4d24d4325fb46aec35f9b6b302d5, type: 3}
       propertyPath: ScrollSpeed
-      value: -3
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 2764088213797799001, guid: aede4d24d4325fb46aec35f9b6b302d5, type: 3}
       propertyPath: m_Name
       value: ExampleChunk
       objectReference: {fileID: 0}
+    - target: {fileID: 7554665973165400098, guid: aede4d24d4325fb46aec35f9b6b302d5, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -7238751548681866091, guid: 12b907d49a9144448aff7b2ee3a4aa8d, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -289,7 +289,7 @@ GameObject:
   m_Component:
   - component: {fileID: 966466907}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: ChunkSpawn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -310,11 +310,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &1237304045 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1082697677697810009, guid: aede4d24d4325fb46aec35f9b6b302d5, type: 3}
-  m_PrefabInstance: {fileID: 583705586}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1948938328
 GameObject:
   m_ObjectHideFlags: 0
