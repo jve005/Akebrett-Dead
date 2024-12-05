@@ -1,15 +1,16 @@
 using System;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class InputActions : MonoBehaviour
 {
     private InputSystem_Actions _inputSystem;
-    public float Position;
+    public float speed;
 
 
     private void Update()
     {
-        Position = _inputSystem.Player.Move.ReadValue<Vector2>().x;
+        speed = _inputSystem.Player.Move.ReadValue<Vector2>().x;
     }
 
     private void Awake() { _inputSystem = new InputSystem_Actions(); }

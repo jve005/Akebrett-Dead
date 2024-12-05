@@ -4,8 +4,10 @@ public class PlayerController : MonoBehaviour
 {
     private InputActions _input;
     private Rigidbody2D _rigidBody2D;
-    public bool Left;
-    public bool Right;
+    public float moveSpeed = 5f;
+    public GameObject Left;
+    public GameObject Middle;
+    public GameObject Right;
     void Start()
     {
         _input = GetComponent<InputActions>();
@@ -15,5 +17,10 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
        
+    }
+
+    void FixedUpdate()
+    {
+        _rigidBody2D.linearVelocityX = _input.speed * moveSpeed;
     }
 }
