@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "Stage_Background_AkebrettD\xD8D_TEST_NoLines_0": -7238751548681866091
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
