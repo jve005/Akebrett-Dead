@@ -54,8 +54,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3454945455671957254}
-  - component: {fileID: 8565540529293010081}
   - component: {fileID: 1261827436640114959}
+  - component: {fileID: 8565540529293010081}
   m_Layer: 0
   m_Name: Chunk2
   m_TagString: Untagged
@@ -82,6 +82,19 @@ Transform:
   - {fileID: 1723218914758903033}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1261827436640114959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5620624062071447214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 498c8572858e6184cbcded5df497218b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ScrollSpeed: 7
 --- !u!114 &8565540529293010081
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101,19 +114,6 @@ MonoBehaviour:
   - {fileID: 2764088213797799001, guid: aede4d24d4325fb46aec35f9b6b302d5, type: 3}
   - {fileID: 2375623038851140506, guid: cc1ac963dc6b416449fbec970e968975, type: 3}
   - {fileID: 6272413824317896853, guid: c4ec19f345c5d144d96e9d37a9811314, type: 3}
---- !u!114 &1261827436640114959
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5620624062071447214}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 498c8572858e6184cbcded5df497218b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ScrollSpeed: 7
 --- !u!1001 &100882982358688583
 PrefabInstance:
   m_ObjectHideFlags: 0

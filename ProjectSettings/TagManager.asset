@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Death
+  - Collectible
   layers:
   - Default
   - TransparentFX

@@ -45,8 +45,8 @@ public class ChunkSpawn : MonoBehaviour
             var nextChunk = FindChunk(starts, chunkList);
             var spawnPoint = transform.position + new Vector3(0, -chunkHeight, 0);
             Instantiate(nextChunk, spawnPoint, Quaternion.identity);
-            //Destroy this chunk in 5 seconds
-            Destroy(gameObject, 5f);
+            //Destroy this chunk in 30 seconds
+            Destroy(gameObject, 30f);
             spawnedNextChunk = true;
         }
     }

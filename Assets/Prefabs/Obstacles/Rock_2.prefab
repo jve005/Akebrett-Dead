@@ -59,14 +59,14 @@ PrefabInstance:
     - target: {fileID: 1693826922721412390, guid: 2926569ee5b1c1c45bf7ce72a9ed51e4, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -8000039627966141317, guid: 261ba597538499645a46071aa35e27d2, type: 3}
+      objectReference: {fileID: -8629667805056782731, guid: fad5ac82b8729a044b84ea5a6cda4c08, type: 3}
     - target: {fileID: 1693826922721412390, guid: 2926569ee5b1c1c45bf7ce72a9ed51e4, type: 3}
       propertyPath: m_SortingOrder
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7721121867730267551, guid: 2926569ee5b1c1c45bf7ce72a9ed51e4, type: 3}
       propertyPath: m_Name
-      value: Rock_1 Variant
+      value: Rock_2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
