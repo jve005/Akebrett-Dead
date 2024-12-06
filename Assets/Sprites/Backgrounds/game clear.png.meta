@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 057c881ff4c2295478efbdd9f2de2d5c
+guid: 4af1e3820ea23ba49b631bc9496f27f9
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1558203426951153197
-    second: "Stage_Background_AkebrettD\xD8D_Complete_0"
+      213: -1303090169047126994
+    second: game clear_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,7 +126,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Stage_Background_AkebrettD\xD8D_Complete_0"
+      name: game clear_0
       rect:
         serializedVersion: 2
         x: 0
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d264837d2c9df9510800000000000000
-      internalID: 1558203426951153197
+      spriteID: e2c64a3356e7aede0800000000000000
+      internalID: -1303090169047126994
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      "Stage_Background_AkebrettD\xD8D_Complete_0": 1558203426951153197
+      game clear_0: -1303090169047126994
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
