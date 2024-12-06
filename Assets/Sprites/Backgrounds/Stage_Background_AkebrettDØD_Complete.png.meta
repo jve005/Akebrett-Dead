@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 261ba597538499645a46071aa35e27d2
+guid: 057c881ff4c2295478efbdd9f2de2d5c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8000039627966141317
-    second: rock_ver1_0
+      213: 1558203426951153197
+    second: "Stage_Background_AkebrettD\xD8D_Complete_0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rock_ver1_0
+      name: "Stage_Background_AkebrettD\xD8D_Complete_0"
       rect:
         serializedVersion: 2
-        x: 3
-        y: 3
-        width: 254
-        height: 164
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b7ca70a28562af090800000000000000
-      internalID: -8000039627966141317
+      spriteID: d264837d2c9df9510800000000000000
+      internalID: 1558203426951153197
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      rock_ver1_0: -8000039627966141317
+      "Stage_Background_AkebrettD\xD8D_Complete_0": 1558203426951153197
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

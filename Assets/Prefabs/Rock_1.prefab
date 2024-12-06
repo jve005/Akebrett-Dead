@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 1693826922721412390}
   - component: {fileID: 540446815063947363}
   m_Layer: 0
-  m_Name: Rock
+  m_Name: Rock_1
   m_TagString: Death
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -74,10 +74,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: -1120765442729750512, guid: 0735bb059ccb89a4c81d43fa99fd5251, type: 3}
+  m_SortingLayerID: -1892076195
+  m_SortingLayer: -1
+  m_SortingOrder: 0
+  m_Sprite: {fileID: -3826954144456293483, guid: ec90b65b5047b5a42a4ea035a0bc9949, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
