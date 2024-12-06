@@ -503,9 +503,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b71dcfc8f86fdc842a91e965a4ef0c05, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Left: {fileID: 182374506}
-  Middle: {fileID: 427981313}
-  Right: {fileID: 303760657}
+  rigidBody2D: {fileID: 1672475235}
+  moveSpeed: 5
+  left: {fileID: 182374507}
+  middle: {fileID: 427981314}
+  right: {fileID: 303760658}
+  playerSpot: {fileID: 1672475238}
 --- !u!114 &1672475240
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -518,7 +521,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 522a463c28eba5b418017c4f454ce231, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Position: 0
+  speed: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

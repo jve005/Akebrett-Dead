@@ -7,7 +7,6 @@ public class InputActions : MonoBehaviour
     private InputSystem_Actions _inputSystem;
     public float speed;
 
-
     private void Update()
     {
         speed = _inputSystem.Player.Move.ReadValue<Vector2>().x;
