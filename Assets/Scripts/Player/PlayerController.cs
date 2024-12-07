@@ -28,14 +28,10 @@ public class PlayerController : MonoBehaviour
             transform.localScale = transform.position.x > playerSpot.position.x ? 
                 new Vector2(1, 1) : new Vector2(-1, 1);
         }
+
         if (Keyboard.current.aKey.isPressed)
         {
             playerSpot = left;
-        }
-
-        if (Keyboard.current.sKey.isPressed)
-        {
-            playerSpot = middle;
         }
 
         if (Keyboard.current.dKey.isPressed)
