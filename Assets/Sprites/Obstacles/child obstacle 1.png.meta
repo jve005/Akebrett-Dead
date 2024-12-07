@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 480975bcc9d4c0249b73746c697dcbb5
+guid: 72b5252fabd0b6b409d284345a62ff85
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5135635465661224467
-    second: rock_ver2(1)_0
+      213: 1114621415461953835
+    second: child obstacle 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: rock_ver2(1)_0
+      name: child obstacle 1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 284
-        height: 222
+        width: 143
+        height: 171
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: de96d55f0ce8ab8b0800000000000000
-      internalID: -5135635465661224467
+      spriteID: b2127a7954ee77f00800000000000000
+      internalID: 1114621415461953835
       vertices: []
       indices: 
       edges: []
@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      child obstacle 1_0: 1114621415461953835
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

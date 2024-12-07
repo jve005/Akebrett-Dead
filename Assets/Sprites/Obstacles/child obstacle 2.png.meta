@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: e7c349d90039046448f4990aa53d674a
+guid: 83fd40390ad6eba45869c225dc9de2a2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3086092253768792389
-    second: trunk_2lanes(1)_0
+      213: 7413875470203252437
+    second: child obstacle 2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: trunk_2lanes(1)_0
+      name: child obstacle 2_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 24
-        width: 602
-        height: 310
+        x: 0
+        y: 1
+        width: 174
+        height: 162
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bb6c60e227ffb25d0800000000000000
-      internalID: -3086092253768792389
+      spriteID: 5de6272b57063e660800000000000000
+      internalID: 7413875470203252437
       vertices: []
       indices: 
       edges: []
@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      child obstacle 2_0: 7413875470203252437
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

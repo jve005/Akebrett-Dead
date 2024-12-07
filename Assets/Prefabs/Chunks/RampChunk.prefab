@@ -70,7 +70,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848179f536e72764fa9dbe13557f76ed, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chunkHeight: 43.2
+  chunkHeight: 4
   starts: 000000000000000000000000
   ends: 000000000000000000000000
   chunkList:
@@ -78,6 +78,9 @@ MonoBehaviour:
   - {fileID: 5620624062071447214, guid: 3c75322c8687bde4891bfbcc489d65aa, type: 3}
   - {fileID: 6272413824317896853, guid: c4ec19f345c5d144d96e9d37a9811314, type: 3}
   - {fileID: 2764088213797799001, guid: aede4d24d4325fb46aec35f9b6b302d5, type: 3}
+  - {fileID: 2764088213797799001, guid: ef8a7615f19d44644bb15810204fe4ab, type: 3}
+  - {fileID: 2764088213797799001, guid: 5700d9e594afd31429fb573f61ad5d8b, type: 3}
+  - {fileID: 2764088213797799001, guid: 07c888bc26b0fa04683021bf3270d070, type: 3}
 --- !u!1001 &1008125668834364687
 PrefabInstance:
   m_ObjectHideFlags: 0

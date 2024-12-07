@@ -1,12 +1,14 @@
 using System.Collections.Generic;
+using System.Net;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ChunkSpawn : MonoBehaviour
 {
     private bool spawnedNextChunk = false;
 
-    //chunkHeight = 10.8 * number of backgrounds
-    public float chunkHeight = 10.8f;
+    //chunkHeight = number of backgrounds
+    public float chunkHeight = 3f;
 
     public int[] starts = new int[3];
     public int[] ends = new int[3];
@@ -33,8 +35,13 @@ public class ChunkSpawn : MonoBehaviour
         {
             return chunkList[chunkNumber];
         }
-        //Otherwise redo the function
-        return FindChunk(ends, chunkList);
+        else
+        {
+            //Otherwise redo the function
+            print(chunkNumber);
+            print("Impossible to find chunk");
+            return FindChunk(ends, chunkList);
+        }
     }
     
     void FixedUpdate()
@@ -43,7 +50,8 @@ public class ChunkSpawn : MonoBehaviour
         if (transform.position.y > 0f && !spawnedNextChunk)
         {
             var nextChunk = FindChunk(starts, chunkList);
-            var spawnPoint = transform.position + new Vector3(0, -chunkHeight, 0);
+            //Each background is 10.8 units tall. Spawns 10.8 * backgrounds below.
+            var spawnPoint = transform.position + new Vector3(0, -chunkHeight * 10.8f, 0);
             Instantiate(nextChunk, spawnPoint, Quaternion.identity);
             //Destroy this chunk in 30 seconds
             Destroy(gameObject, 30f);
