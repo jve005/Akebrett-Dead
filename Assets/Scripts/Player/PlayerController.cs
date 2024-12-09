@@ -12,6 +12,8 @@ public class PlayerController : MonoBehaviour
     public Transform middle;
     public Transform right;
     public Transform playerSpot;
+    [SerializeField] public Transform[] wayPoint;
+    private int _wayPointIndex = 1;
     
     void Start()
     {
@@ -29,14 +31,16 @@ public class PlayerController : MonoBehaviour
                 new Vector2(1, 1) : new Vector2(-1, 1);
         }
 
-        if (Keyboard.current.aKey.isPressed)
+        if (Keyboard.current.aKey.wasPressedThisFrame && _wayPointIndex != 0)
         {
-            playerSpot = left;
+            _wayPointIndex--;
+            playerSpot = wayPoint[_wayPointIndex];
         }
 
-        if (Keyboard.current.dKey.isPressed)
+        if (Keyboard.current.dKey.wasPressedThisFrame && _wayPointIndex != wayPoint.Length - 1)
         {
-            playerSpot = right;
+            _wayPointIndex++;
+            playerSpot = wayPoint[_wayPointIndex];
         }
     }
 

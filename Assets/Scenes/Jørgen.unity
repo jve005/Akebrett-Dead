@@ -509,6 +509,10 @@ MonoBehaviour:
   middle: {fileID: 427981314}
   right: {fileID: 303760658}
   playerSpot: {fileID: 1672475238}
+  WayPoint:
+  - {fileID: 182374507}
+  - {fileID: 427981314}
+  - {fileID: 303760658}
 --- !u!114 &1672475240
 MonoBehaviour:
   m_ObjectHideFlags: 0
