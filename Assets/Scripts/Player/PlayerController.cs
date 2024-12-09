@@ -4,20 +4,15 @@ using UnityEngine.Serialization;
 
 public class PlayerController : MonoBehaviour
 {
-    private InputActions _input;
     public Rigidbody2D rigidBody2D;
     private Vector2 _direction;
     public float moveSpeed = 5f;
-    public Transform left;
-    public Transform middle;
-    public Transform right;
     public Transform playerSpot;
     [SerializeField] public Transform[] wayPoint;
     private int _wayPointIndex = 1;
     
     void Start()
     {
-        _input = GetComponent<InputActions>();
         rigidBody2D = GetComponent<Rigidbody2D>();
     }
 
