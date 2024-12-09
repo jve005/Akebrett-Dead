@@ -505,9 +505,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rigidBody2D: {fileID: 1672475235}
   moveSpeed: 5
-  left: {fileID: 182374507}
-  middle: {fileID: 427981314}
-  right: {fileID: 303760658}
   playerSpot: {fileID: 1672475238}
   wayPoint:
   - {fileID: 182374507}
