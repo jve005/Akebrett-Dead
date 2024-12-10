@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 626fc5b415d363c48a3bc2c0656fde2a
+guid: e8e63cdf7db49b44693c1fc8d29d4736
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2862525178214648875
-    second: sketches in progress_0
+      213: -5158212703838140687
+    second: child obstacle 3(1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sketches in progress_0
+      name: child obstacle 3(1)_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 5
-        width: 169
-        height: 219
+        x: 0
+        y: 1
+        width: 144
+        height: 174
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b2c8818bb7bb9b720800000000000000
-      internalID: 2862525178214648875
+      spriteID: 1f602df00e85a68b0800000000000000
+      internalID: -5158212703838140687
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      sketches in progress_0: 2862525178214648875
+      child obstacle 3(1)_0: -5158212703838140687
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

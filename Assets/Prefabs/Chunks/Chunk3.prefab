@@ -49,7 +49,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 498c8572858e6184cbcded5df497218b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScrollSpeed: 7
+  ScrollSpeed: 5
+  ScrollAcceleration: 0.2
 --- !u!114 &4688895790912251462
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -65,14 +66,6 @@ MonoBehaviour:
   chunkHeight: 2
   starts: 010000000100000000000000
   ends: 000000000000000000000000
-  chunkList:
-  - {fileID: 2375623038851140506, guid: cc1ac963dc6b416449fbec970e968975, type: 3}
-  - {fileID: 5620624062071447214, guid: 3c75322c8687bde4891bfbcc489d65aa, type: 3}
-  - {fileID: 6272413824317896853}
-  - {fileID: 2764088213797799001, guid: 5c053adddd77f87419858b8d075395d5, type: 3}
-  - {fileID: 2764088213797799001, guid: ef8a7615f19d44644bb15810204fe4ab, type: 3}
-  - {fileID: 2764088213797799001, guid: 5700d9e594afd31429fb573f61ad5d8b, type: 3}
-  - {fileID: 2764088213797799001, guid: 07c888bc26b0fa04683021bf3270d070, type: 3}
 --- !u!1 &7348414541497068470
 GameObject:
   m_ObjectHideFlags: 0

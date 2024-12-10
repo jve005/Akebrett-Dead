@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 626fc5b415d363c48a3bc2c0656fde2a
+guid: 908c2b15a39b1b34382c1383e1ca82a3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2862525178214648875
-    second: sketches in progress_0
+      213: 1092331753669877474
+    second: game fail_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sketches in progress_0
+      name: game fail_0
       rect:
         serializedVersion: 2
-        x: 1
-        y: 5
-        width: 169
-        height: 219
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b2c8818bb7bb9b720800000000000000
-      internalID: 2862525178214648875
+      spriteID: 2ee5f5a41fdb82f00800000000000000
+      internalID: 1092331753669877474
       vertices: []
       indices: 
       edges: []
@@ -161,7 +161,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      sketches in progress_0: 2862525178214648875
+      game fail_0: 1092331753669877474
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
