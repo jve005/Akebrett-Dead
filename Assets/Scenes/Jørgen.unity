@@ -559,7 +559,7 @@ GameObject:
   - component: {fileID: 1797604784}
   - component: {fileID: 1797604785}
   m_Layer: 0
-  m_Name: Ratt
+  m_Name: Handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -646,7 +646,7 @@ GameObject:
   - component: {fileID: 1912962850}
   - component: {fileID: 1912962851}
   m_Layer: 0
-  m_Name: Skygge
+  m_Name: Shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
