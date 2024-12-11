@@ -69,7 +69,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chunkHeight: 3
-  starts: 000000000000000000000000
+  starts: 000000000100000000000000
   ends: 000000000100000000000000
 --- !u!1001 &721641690641031190
 PrefabInstance:

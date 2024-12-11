@@ -26,7 +26,7 @@ public class ChunkSpawn : MonoBehaviour
     private static GameObject FindChunk(int[] ends, List<GameObject> chunkList)
     {
         //Pick a random chunk from among the list of chunks
-        var chunkNumber = Random.Range(0, chunkList.Count - 1);
+        var chunkNumber = Random.Range(0, chunkList.Count);
         
         //Find the starts list from the picked chunk
         var starts = chunkList[chunkNumber].GetComponent<ChunkSpawn>().starts;

@@ -62,7 +62,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   chunkHeight: 1
   starts: 000000000000000000000000
-  ends: 000000000100000000000000
+  ends: 000000000000000000000000
 --- !u!1001 &8258466437925362457
 PrefabInstance:
   m_ObjectHideFlags: 0

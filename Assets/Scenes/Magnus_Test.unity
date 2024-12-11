@@ -372,6 +372,42 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1978076312067561685, guid: 286052ed775af7a4e9b9281e33623c46, type: 3}
+      propertyPath: chunkList.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1978076312067561685, guid: 286052ed775af7a4e9b9281e33623c46, type: 3}
+      propertyPath: 'chunkList.Array.data[4]'
+      value: 
+      objectReference: {fileID: 2764088213797799001, guid: eadfbb9a8b3912c44bbb609fe68e0d79, type: 3}
+    - target: {fileID: 1978076312067561685, guid: 286052ed775af7a4e9b9281e33623c46, type: 3}
+      propertyPath: 'chunkList.Array.data[5]'
+      value: 
+      objectReference: {fileID: 2764088213797799001, guid: 5c053adddd77f87419858b8d075395d5, type: 3}
+    - target: {fileID: 1978076312067561685, guid: 286052ed775af7a4e9b9281e33623c46, type: 3}
+      propertyPath: 'chunkList.Array.data[6]'
+      value: 
+      objectReference: {fileID: 2764088213797799001, guid: ef8a7615f19d44644bb15810204fe4ab, type: 3}
+    - target: {fileID: 1978076312067561685, guid: 286052ed775af7a4e9b9281e33623c46, type: 3}
+      propertyPath: 'chunkList.Array.data[7]'
+      value: 
+      objectReference: {fileID: 2764088213797799001, guid: 5700d9e594afd31429fb573f61ad5d8b, type: 3}
+    - target: {fileID: 1978076312067561685, guid: 286052ed775af7a4e9b9281e33623c46, type: 3}
+      propertyPath: 'chunkList.Array.data[8]'
+      value: 
+      objectReference: {fileID: 2764088213797799001, guid: 07c888bc26b0fa04683021bf3270d070, type: 3}
+    - target: {fileID: 1978076312067561685, guid: 286052ed775af7a4e9b9281e33623c46, type: 3}
+      propertyPath: intermediate.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1978076312067561685, guid: 286052ed775af7a4e9b9281e33623c46, type: 3}
+      propertyPath: 'intermediate.Array.data[0]'
+      value: 
+      objectReference: {fileID: 3135877513808962258, guid: 3905c31c9f83f8c4eae2687a7ab317d8, type: 3}
+    - target: {fileID: 1978076312067561685, guid: 286052ed775af7a4e9b9281e33623c46, type: 3}
+      propertyPath: 'intermediate.Array.data[3]'
+      value: 
+      objectReference: {fileID: 3135877513808962258, guid: 3905c31c9f83f8c4eae2687a7ab317d8, type: 3}
     - target: {fileID: 5942764912353379188, guid: 286052ed775af7a4e9b9281e33623c46, type: 3}
       propertyPath: m_Name
       value: VariableContainer
