@@ -26,7 +26,7 @@ public class ChunkSpawn : MonoBehaviour
     private static GameObject FindChunk(int[] ends, List<GameObject> chunkList)
     {
         //Pick a random chunk from among the list of chunks
-        var chunkNumber = Random.Range(0, chunkList.Count);
+        var chunkNumber = Random.Range(0, chunkList.Count - 1);
         
         //Find the starts list from the picked chunk
         var starts = chunkList[chunkNumber].GetComponent<ChunkSpawn>().starts;
@@ -57,7 +57,7 @@ public class ChunkSpawn : MonoBehaviour
         //Check if this chunk has not yet spawned a chunk
         if (transform.position.y > 0f && !spawnedNextChunk)
         {
-            var nextChunkPrefab = FindChunk(starts, chunkList);
+            var nextChunkPrefab = FindChunk(ends, chunkList);
             //Each background is 10.8 units tall. Spawns 10.8 * backgrounds below.
             var spawnPoint = transform.position + new Vector3(0, -chunkHeight * 10.8f, 0);
             var chunkGameObject = Instantiate(nextChunkPrefab, spawnPoint, Quaternion.identity);
@@ -70,3 +70,4 @@ public class ChunkSpawn : MonoBehaviour
     }
 }
 //chillchunk 1 went into chunk 3
+//chillchunk 1 went into chunk 1

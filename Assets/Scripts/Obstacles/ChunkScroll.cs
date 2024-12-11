@@ -13,5 +13,6 @@ public class ChunkScroll : MonoBehaviour
         transform.Translate((Vector2.up * ScrollSpeed * Time.deltaTime));
         transform.Translate(Vector2.up * ScrollAcceleration * Time.time * Time.deltaTime);
     }
+    //Speed should start at around 5 and end at around 8
 
 }

@@ -16,5 +16,6 @@ public class SpawnVariables : MonoBehaviour
             chunkList.AddRange(intermediate);
             intermediateadded = true;
         }
+        print(chunkList[0]);
     }
 }

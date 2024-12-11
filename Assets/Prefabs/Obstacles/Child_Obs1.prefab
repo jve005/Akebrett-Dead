@@ -10,12 +10,24 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1858767484524571607, guid: 2758ad44e2b982a42bd6af932ef22907, type: 3}
       propertyPath: m_Name
-      value: Stump Variant
+      value: Child_Obs1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752770446512170400, guid: 2758ad44e2b982a42bd6af932ef22907, type: 3}
+      propertyPath: m_Size.x
+      value: 1.43
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752770446512170400, guid: 2758ad44e2b982a42bd6af932ef22907, type: 3}
+      propertyPath: m_Size.y
+      value: 1.71
       objectReference: {fileID: 0}
     - target: {fileID: 2752770446512170400, guid: 2758ad44e2b982a42bd6af932ef22907, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 1114621415461953835, guid: 72b5252fabd0b6b409d284345a62ff85, type: 3}
+      objectReference: {fileID: 21300000, guid: 72b5252fabd0b6b409d284345a62ff85, type: 3}
+    - target: {fileID: 2752770446512170400, guid: 2758ad44e2b982a42bd6af932ef22907, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9102512122661016464, guid: 2758ad44e2b982a42bd6af932ef22907, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.6183276

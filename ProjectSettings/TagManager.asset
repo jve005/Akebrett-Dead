@@ -8,6 +8,7 @@ TagManager:
   - Collectible
   - Win
   - Ramp
+  - EndRamp
   layers:
   - Default
   - TransparentFX

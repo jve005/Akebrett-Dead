@@ -4,19 +4,19 @@ using UnityEngine.SceneManagement;
 
 public class CheckForInput : MonoBehaviour
 {
-    private InputActions _input;
     public string scenepath;
-
-    void Start()
-    {
-        _input = GetComponent<InputActions>();
-    }
+    
+    //Time to wait before you're allowed to click out
+    public float waitTime = 1f;
 
     void Update()
     {
-        if (Keyboard.current.anyKey.wasPressedThisFrame || Gamepad.current != null)
+        if (waitTime < Time.time)
         {
-            SceneManager.LoadScene(scenepath);
+            if (Keyboard.current.anyKey.wasPressedThisFrame || Gamepad.current != null)
+            {
+                SceneManager.LoadScene(scenepath);
+            }
         }
     }
 }

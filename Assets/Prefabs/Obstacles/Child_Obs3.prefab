@@ -10,12 +10,24 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1858767484524571607, guid: 2758ad44e2b982a42bd6af932ef22907, type: 3}
       propertyPath: m_Name
-      value: Stump Variant
+      value: Child_Obs3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752770446512170400, guid: 2758ad44e2b982a42bd6af932ef22907, type: 3}
+      propertyPath: m_Size.x
+      value: 1.44
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752770446512170400, guid: 2758ad44e2b982a42bd6af932ef22907, type: 3}
+      propertyPath: m_Size.y
+      value: 1.75
       objectReference: {fileID: 0}
     - target: {fileID: 2752770446512170400, guid: 2758ad44e2b982a42bd6af932ef22907, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -5158212703838140687, guid: e8e63cdf7db49b44693c1fc8d29d4736, type: 3}
+      objectReference: {fileID: 21300000, guid: e8e63cdf7db49b44693c1fc8d29d4736, type: 3}
+    - target: {fileID: 2752770446512170400, guid: 2758ad44e2b982a42bd6af932ef22907, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 9102512122661016464, guid: 2758ad44e2b982a42bd6af932ef22907, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.2320583

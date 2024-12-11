@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerCollision : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class PlayerCollision : MonoBehaviour
     private float jumpTime = 0f;
     private Vector3 playerScaleChange = new Vector3(0.03f, 0.03f, 0.03f);
     private Vector3 shadowmoveChange = new Vector3(0, -0.1f, 0);
+
 
     void Start()
     {
@@ -44,17 +46,19 @@ public class PlayerCollision : MonoBehaviour
     }
 
     //All Obstacles should be triggers.
-    void OnTriggerEnter2D(Collider2D collision)
+    void OnTriggerStay2D(Collider2D collision)
     {
         //Player does not collide with obstacles whilst airborne
         if (!airborne)
         {
             print("Player collision");
             //Rocks, Trees, other children
+            //For now it sends you to DeathScreen immediately, it needs to wait for animation
             if (collision.gameObject.tag == "Death")
             {
+                //Add death animation
                 print("Lose");
-                //*Go to Lose Screen*
+                SceneManager.LoadScene("DeathScreen");
             }
 
             if (collision.gameObject.tag == "Ramp")
@@ -63,12 +67,21 @@ public class PlayerCollision : MonoBehaviour
                 jumpTime = 0f;
                 airborne = true;
             }
+            
+            //Only used for the ending ramp
+            if (collision.gameObject.tag == "EndRamp")
+            {
+                print("EndRamp");
+                jumpLength = 3.5f;
+                jumpTime = 0f;
+                airborne = true;
+            }
 
             //Collider after the big ramp
             if (collision.gameObject.tag == "Win")
             {
                 print("Win");
-                //*Go to Win Screen*
+                SceneManager.LoadScene("WinScreen");
             }
     }
 }
