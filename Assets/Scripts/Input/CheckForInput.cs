@@ -7,11 +7,11 @@ public class CheckForInput : MonoBehaviour
     public string scenepath;
     
     //Time to wait before you're allowed to click out
-    public float waitTime = 1f;
+    public float waitTime = 5f;
 
     void Update()
     {
-        if (waitTime < Time.time)
+        if (waitTime < Time.timeSinceLevelLoad)
         {
             if (Keyboard.current.anyKey.wasPressedThisFrame || Gamepad.current != null)
             {

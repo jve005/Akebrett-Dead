@@ -99,6 +99,8 @@ GameObject:
   - component: {fileID: 8877640103182151921}
   - component: {fileID: 6772982649870029141}
   - component: {fileID: 8294468069483718185}
+  - component: {fileID: 3556208741451076481}
+  - component: {fileID: 7667708419617797780}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -146,7 +148,7 @@ CircleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4802595347226487511}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
@@ -202,6 +204,35 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &3556208741451076481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4802595347226487511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 522a463c28eba5b418017c4f454ce231, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+--- !u!114 &7667708419617797780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4802595347226487511}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b71dcfc8f86fdc842a91e965a4ef0c05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rigidBody2D: {fileID: 0}
+  moveSpeed: 5
+  playerSpot: {fileID: 0}
+  wayPoint: []
 --- !u!1 &6403464878501375110
 GameObject:
   m_ObjectHideFlags: 0

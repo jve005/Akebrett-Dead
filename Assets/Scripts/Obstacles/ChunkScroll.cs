@@ -4,14 +4,21 @@ public class ChunkScroll : MonoBehaviour
 {
     //Make negative for scrolling down
     //Keep all variables the same on all chunks
-    public float ScrollSpeed = 3f;
-    public float ScrollAcceleration = 0.2f;
+    private float scrollSpeed;
+    
+    private GameObject VariableContainer;
+
+    void Start()
+    {
+        VariableContainer = GameObject.Find("VariableContainer");
+        
+    }
     
     void Update()
     {
-        //Move for Startspeed then add accelaration
-        transform.Translate((Vector2.up * ScrollSpeed * Time.deltaTime));
-        transform.Translate(Vector2.up * ScrollAcceleration * Time.time * Time.deltaTime);
+        //Check SpawnVariables for speedcalculation
+        scrollSpeed = VariableContainer.GetComponent<SpawnVariables>().scrollSpeed;
+        transform.Translate((Vector2.up * scrollSpeed * Time.deltaTime));
     }
     //Speed should start at around 5 and end at around 8
 

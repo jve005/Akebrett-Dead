@@ -1,0 +1,1071 @@
+fileFormatVersion: 2
+guid: c775bc48df467fa46bbd0751b442be9f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2008686579605543813
+    second: snow-sheet_0
+  - first:
+      213: 72900982335117370
+    second: snow-sheet_1
+  - first:
+      213: 2905453494677009287
+    second: snow-sheet_2
+  - first:
+      213: -1082307196257588107
+    second: snow-sheet_3
+  - first:
+      213: -4457708510162003848
+    second: snow-sheet_4
+  - first:
+      213: -8056780513550617349
+    second: snow-sheet_5
+  - first:
+      213: -7065930765183854768
+    second: snow-sheet_6
+  - first:
+      213: 7407425595671319149
+    second: snow-sheet_7
+  - first:
+      213: -4588925250006540447
+    second: snow-sheet_8
+  - first:
+      213: -7503045694956078903
+    second: snow-sheet_9
+  - first:
+      213: -8016225777739971307
+    second: snow-sheet_10
+  - first:
+      213: -6965666229968752895
+    second: snow-sheet_11
+  - first:
+      213: 3762970447528270846
+    second: snow-sheet_12
+  - first:
+      213: -6211869226237942342
+    second: snow-sheet_13
+  - first:
+      213: 3444127549164543846
+    second: snow-sheet_14
+  - first:
+      213: 7749808478210195901
+    second: snow-sheet_15
+  - first:
+      213: 4956003596015616759
+    second: snow-sheet_16
+  - first:
+      213: -1234190746590323648
+    second: snow-sheet_17
+  - first:
+      213: 3468771678075670722
+    second: snow-sheet_18
+  - first:
+      213: -4929831057437573297
+    second: snow-sheet_19
+  - first:
+      213: -1630477717551655422
+    second: snow-sheet_20
+  - first:
+      213: 9010849223957176494
+    second: snow-sheet_21
+  - first:
+      213: -136750560439093230
+    second: snow-sheet_22
+  - first:
+      213: -1477549183842735898
+    second: snow-sheet_23
+  - first:
+      213: -4515002087822245384
+    second: snow-sheet_24
+  - first:
+      213: 9128213530346031802
+    second: snow-sheet_25
+  - first:
+      213: 6902114005121187331
+    second: snow-sheet_26
+  - first:
+      213: 2792567933919805169
+    second: snow-sheet_27
+  - first:
+      213: -3763591685587915510
+    second: snow-sheet_28
+  - first:
+      213: -4115065658595907144
+    second: snow-sheet_29
+  - first:
+      213: 7580662453634091464
+    second: snow-sheet_30
+  - first:
+      213: -5133277292078984166
+    second: snow-sheet_31
+  - first:
+      213: -5200947583391667252
+    second: snow-sheet_32
+  - first:
+      213: 4894546557203028789
+    second: snow-sheet_33
+  - first:
+      213: 4478016485319104394
+    second: snow-sheet_34
+  - first:
+      213: -4123727384463324937
+    second: snow-sheet_35
+  - first:
+      213: -7720430443177105282
+    second: snow-sheet_36
+  - first:
+      213: -7873558803541482483
+    second: snow-sheet_37
+  - first:
+      213: -8934312031241591215
+    second: snow-sheet_38
+  - first:
+      213: -7604294200163509094
+    second: snow-sheet_39
+  - first:
+      213: -5888645367625703457
+    second: snow-sheet_40
+  - first:
+      213: 2667799776177377332
+    second: snow-sheet_41
+  - first:
+      213: 480089856613886700
+    second: snow-sheet_42
+  - first:
+      213: 3453011528321073509
+    second: snow-sheet_43
+  - first:
+      213: -3096133184228524989
+    second: snow-sheet_44
+  - first:
+      213: -6420614091732023834
+    second: snow-sheet_45
+  - first:
+      213: -4638043170998334604
+    second: snow-sheet_46
+  - first:
+      213: 1649074863003011847
+    second: snow-sheet_47
+  - first:
+      213: -3330116156979898830
+    second: snow-sheet_48
+  - first:
+      213: 4216824420746216076
+    second: snow-sheet_49
+  - first:
+      213: 836811030714489176
+    second: snow-sheet_50
+  - first:
+      213: 4019906334005462846
+    second: snow-sheet_51
+  - first:
+      213: 3452734215330438216
+    second: snow-sheet_52
+  - first:
+      213: 4493395442362546368
+    second: snow-sheet_53
+  - first:
+      213: 236937601345227429
+    second: snow-sheet_54
+  - first:
+      213: -6698841367327166208
+    second: snow-sheet_55
+  - first:
+      213: -7254367795611976559
+    second: snow-sheet_56
+  - first:
+      213: 2856779449224762645
+    second: snow-sheet_57
+  - first:
+      213: 7145950373289021005
+    second: snow-sheet_58
+  - first:
+      213: 2782210628467049008
+    second: snow-sheet_59
+  - first:
+      213: -8655821615561634885
+    second: snow-sheet_60
+  - first:
+      213: -8165208850639945375
+    second: snow-sheet_61
+  - first:
+      213: 6073371685351340053
+    second: snow-sheet_62
+  - first:
+      213: -1553721375913224222
+    second: snow-sheet_63
+  - first:
+      213: 5181995303483057034
+    second: snow-sheet_64
+  - first:
+      213: 8149405156246538018
+    second: snow-sheet_65
+  - first:
+      213: -8360215574497903994
+    second: snow-sheet_66
+  - first:
+      213: -6842696963061119916
+    second: snow-sheet_67
+  - first:
+      213: -5863808896719858644
+    second: snow-sheet_68
+  - first:
+      213: 7098304203090226310
+    second: snow-sheet_69
+  - first:
+      213: -9129970123044972455
+    second: snow-sheet_70
+  - first:
+      213: 7545715362688136627
+    second: snow-sheet_71
+  - first:
+      213: -6949466050962246728
+    second: snow-sheet_72
+  - first:
+      213: -6387093084356530043
+    second: snow-sheet_73
+  - first:
+      213: -4567694104205866738
+    second: snow-sheet_74
+  - first:
+      213: -4216308651831023776
+    second: snow-sheet_75
+  - first:
+      213: -7928493038488810782
+    second: snow-sheet_76
+  - first:
+      213: 3300265701169613548
+    second: snow-sheet_77
+  - first:
+      213: 6570289999218985322
+    second: snow-sheet_78
+  - first:
+      213: -3879613085652153689
+    second: snow-sheet_79
+  - first:
+      213: -7379787897157243052
+    second: snow-sheet_80
+  - first:
+      213: 1572925091546401453
+    second: snow-sheet_81
+  - first:
+      213: -2734402201054413203
+    second: snow-sheet_82
+  - first:
+      213: 8853863933869233303
+    second: snow-sheet_83
+  - first:
+      213: -4553815814476167777
+    second: snow-sheet_84
+  - first:
+      213: 8874961660116536499
+    second: snow-sheet_85
+  - first:
+      213: -7654023637507513480
+    second: snow-sheet_86
+  - first:
+      213: -8290738984860949975
+    second: snow-sheet_87
+  - first:
+      213: 699983410857294467
+    second: snow-sheet_88
+  - first:
+      213: -4758702241810551189
+    second: snow-sheet_89
+  - first:
+      213: 4234813600413082863
+    second: snow-sheet_90
+  - first:
+      213: -2273103831470879018
+    second: snow-sheet_91
+  - first:
+      213: 743332711193280778
+    second: snow-sheet_92
+  - first:
+      213: 3259569952703536958
+    second: snow-sheet_93
+  - first:
+      213: 4960612161852479347
+    second: snow-sheet_94
+  - first:
+      213: -6759042421421050221
+    second: snow-sheet_95
+  - first:
+      213: 1636676076014756013
+    second: snow-sheet_96
+  - first:
+      213: -2834785177811794430
+    second: snow-sheet_97
+  - first:
+      213: 5172346433755565743
+    second: snow-sheet_98
+  - first:
+      213: -7123850859414396116
+    second: snow-sheet_99
+  - first:
+      213: -3815848715836100058
+    second: snow-sheet_100
+  - first:
+      213: -8108333048486236590
+    second: snow-sheet_101
+  - first:
+      213: 1191857575949809890
+    second: snow-sheet_102
+  - first:
+      213: 6312030129548029258
+    second: snow-sheet_103
+  - first:
+      213: -2754160794077784499
+    second: snow-sheet_104
+  - first:
+      213: 7319868438143030005
+    second: snow-sheet_105
+  - first:
+      213: -2625336640007738760
+    second: snow-sheet_106
+  - first:
+      213: 4430087189663980697
+    second: snow-sheet_107
+  - first:
+      213: -8855145806746676745
+    second: snow-sheet_108
+  - first:
+      213: 7531239148413574759
+    second: snow-sheet_109
+  - first:
+      213: 7274493364142327070
+    second: snow-sheet_110
+  - first:
+      213: -8883961169753979029
+    second: snow-sheet_111
+  - first:
+      213: -7959125822935088683
+    second: snow-sheet_112
+  - first:
+      213: 4193628470561963299
+    second: snow-sheet_113
+  - first:
+      213: 287774816040204839
+    second: snow-sheet_114
+  - first:
+      213: -8973089659215690261
+    second: snow-sheet_115
+  - first:
+      213: -5778272515510001533
+    second: snow-sheet_116
+  - first:
+      213: -4703421652232855125
+    second: snow-sheet_117
+  - first:
+      213: 4089899577768809323
+    second: snow-sheet_118
+  - first:
+      213: -1033146021858038677
+    second: snow-sheet_119
+  - first:
+      213: -4364399959840491642
+    second: snow-sheet_120
+  - first:
+      213: -7227608347356631770
+    second: snow-sheet_121
+  - first:
+      213: 6970857621762160796
+    second: snow-sheet_122
+  - first:
+      213: 5853821351226984468
+    second: snow-sheet_123
+  - first:
+      213: 5481827401821764079
+    second: snow-sheet_124
+  - first:
+      213: -5501089034860824119
+    second: snow-sheet_125
+  - first:
+      213: 5825140786413042333
+    second: snow-sheet_126
+  - first:
+      213: -4445101926197264206
+    second: snow-sheet_127
+  - first:
+      213: 8574742114577688927
+    second: snow-sheet_128
+  - first:
+      213: -7260937912730481994
+    second: snow-sheet_129
+  - first:
+      213: -4929414178972344194
+    second: snow-sheet_130
+  - first:
+      213: -202429027176622631
+    second: snow-sheet_131
+  - first:
+      213: -2291626597353270321
+    second: snow-sheet_132
+  - first:
+      213: -5967600551388784096
+    second: snow-sheet_133
+  - first:
+      213: 3232407936184892282
+    second: snow-sheet_134
+  - first:
+      213: 742154445181866571
+    second: snow-sheet_135
+  - first:
+      213: 5402860101276007550
+    second: snow-sheet_136
+  - first:
+      213: -7791854008058732175
+    second: snow-sheet_137
+  - first:
+      213: 5110335098649193662
+    second: snow-sheet_138
+  - first:
+      213: 6657807658065911702
+    second: snow-sheet_139
+  - first:
+      213: 1122160503010057948
+    second: snow-sheet_140
+  - first:
+      213: -72718295272752743
+    second: snow-sheet_141
+  - first:
+      213: -104133919114567355
+    second: snow-sheet_142
+  - first:
+      213: 121238633640049336
+    second: snow-sheet_143
+  - first:
+      213: -1035652393336747324
+    second: snow-sheet_144
+  - first:
+      213: -4955570574960181394
+    second: snow-sheet_145
+  - first:
+      213: -1482045717881795151
+    second: snow-sheet_146
+  - first:
+      213: 7973564076994873843
+    second: snow-sheet_147
+  - first:
+      213: -6085341634726670747
+    second: snow-sheet_148
+  - first:
+      213: 304154751918371885
+    second: snow-sheet_149
+  - first:
+      213: -3211640006383239367
+    second: snow-sheet_150
+  - first:
+      213: -573582800769335530
+    second: snow-sheet_151
+  - first:
+      213: -3982859796108448271
+    second: snow-sheet_152
+  - first:
+      213: 3821583426747100815
+    second: snow-sheet_153
+  - first:
+      213: -4066331166959671739
+    second: snow-sheet_154
+  - first:
+      213: -4328587781820325582
+    second: snow-sheet_155
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Win64
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: snow-sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3240
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58b9b7a3dc940eb10800000000000000
+      internalID: 2008686579605543813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snow-sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3240
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a389cd3ae0ff20100800000000000000
+      internalID: 72900982335117370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snow-sheet_2
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 3240
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783f3a54f8e325820800000000000000
+      internalID: 2905453494677009287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snow-sheet_3
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 3240
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ca73dd65fdaf0f0800000000000000
+      internalID: -1082307196257588107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snow-sheet_4
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 3240
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 878de8b5ab90322c0800000000000000
+      internalID: -4457708510162003848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snow-sheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2160
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf4b6804fc0903090800000000000000
+      internalID: -8056780513550617349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snow-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2160
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05756bde765c0fd90800000000000000
+      internalID: -7065930765183854768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snow-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2160
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d62102245567cc660800000000000000
+      internalID: 7407425595671319149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snow-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 2160
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16f1a8c5cccd050c0800000000000000
+      internalID: -4588925250006540447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snow-sheet_9
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 2160
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c87e9a71b3dfd790800000000000000
+      internalID: -7503045694956078903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snow-sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1080
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 515ca7e7025a0c090800000000000000
+      internalID: -8016225777739971307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snow-sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1080
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10f27c2387bf45f90800000000000000
+      internalID: -6965666229968752895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snow-sheet_12
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1080
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efb17395fa1c83430800000000000000
+      internalID: 3762970447528270846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snow-sheet_13
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 1080
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab528e2c9d10bc9a0800000000000000
+      internalID: -6211869226237942342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snow-sheet_14
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 1080
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66fd61912cffbcf20800000000000000
+      internalID: 3444127549164543846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snow-sheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db1870d20c9dc8b60800000000000000
+      internalID: 7749808478210195901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snow-sheet_16
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f2c116330347c440800000000000000
+      internalID: 4956003596015616759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snow-sheet_17
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 0
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04cd8641e064fdee0800000000000000
+      internalID: -1234190746590323648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snow-sheet_18
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 0
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c0d2ae767d832030800000000000000
+      internalID: 3468771678075670722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: snow-sheet_19
+      rect:
+        serializedVersion: 2
+        x: 7680
+        y: 0
+        width: 1920
+        height: 1080
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4fbebac5c8b59bb0800000000000000
+      internalID: -4929831057437573297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: cb93bbd904738ad44be5c4018e1d8cbe
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      snow-sheet_0: 2008686579605543813
+      snow-sheet_1: 72900982335117370
+      snow-sheet_10: -8016225777739971307
+      snow-sheet_11: -6965666229968752895
+      snow-sheet_12: 3762970447528270846
+      snow-sheet_13: -6211869226237942342
+      snow-sheet_14: 3444127549164543846
+      snow-sheet_15: 7749808478210195901
+      snow-sheet_16: 4956003596015616759
+      snow-sheet_17: -1234190746590323648
+      snow-sheet_18: 3468771678075670722
+      snow-sheet_19: -4929831057437573297
+      snow-sheet_2: 2905453494677009287
+      snow-sheet_3: -1082307196257588107
+      snow-sheet_4: -4457708510162003848
+      snow-sheet_5: -8056780513550617349
+      snow-sheet_6: -7065930765183854768
+      snow-sheet_7: 7407425595671319149
+      snow-sheet_8: -4588925250006540447
+      snow-sheet_9: -7503045694956078903
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

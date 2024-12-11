@@ -11,7 +11,14 @@ public class SpawnVariables : MonoBehaviour
     
     public List<GameObject> End = new List<GameObject>();
     private bool endAdded = false;
+    
+    public float scrollSpeed = 0.1f;
 
+    public static float ToSingle(double value)
+    {
+        return (float)value;
+    }
+    
     private void FixedUpdate()
     {
         if (Time.time > 25f && !intermediateAdded)
@@ -25,5 +32,10 @@ public class SpawnVariables : MonoBehaviour
             chunkList.AddRange(End);
             endAdded = true;
         }
+
+        //Starts at less than 4, reaches 6 at 100 secs
+        scrollSpeed = 2 * ToSingle(Math.Log(Time.timeSinceLevelLoad, 5)) + 4f;
+        //scrollSpeed = 10.1f;
+        print(scrollSpeed);
     }
 }
