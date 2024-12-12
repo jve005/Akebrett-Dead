@@ -10,7 +10,7 @@ public class PlayerCollision : MonoBehaviour
     public bool airborne = false;
     private float jumpLength = 1.5f;
     private float jumpTime = 0f;
-    private Vector3 playerScaleChange = new Vector3(0.03f, 0.03f, 0.03f);
+    private Vector3 playerScaleChange = new Vector3(0.02f, 0.02f, 0.02f);
     private Vector3 shadowmoveChange = new Vector3(0, -0.1f, 0);
 
 

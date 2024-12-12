@@ -20,6 +20,5 @@ public class ChunkScroll : MonoBehaviour
         scrollSpeed = VariableContainer.GetComponent<SpawnVariables>().scrollSpeed;
         transform.Translate((Vector2.up * scrollSpeed * Time.deltaTime));
     }
-    //Speed should start at around 5 and end at around 8
-
+    //Speed should start at around 5 and end at around 10
 }

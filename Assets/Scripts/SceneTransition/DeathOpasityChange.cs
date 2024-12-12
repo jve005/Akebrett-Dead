@@ -2,15 +2,18 @@ using UnityEngine;
 
 public class DeathOpasityChange : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    private SpriteRenderer _spriteRenderer;
+    private float currentOpacity = 0f;
+
     void Start()
     {
-        
+        _spriteRenderer = GetComponent<SpriteRenderer>();
     }
-
-    // Update is called once per frame
+    
     void Update()
     {
-        
+        _spriteRenderer.color = new Color(1f, 1f, 1f, currentOpacity);
+        currentOpacity += 0.0005f;
     }
 }
