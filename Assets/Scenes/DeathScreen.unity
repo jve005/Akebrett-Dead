@@ -287,6 +287,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: InputCheck
       objectReference: {fileID: 0}
+    - target: {fileID: 4617251810716632943, guid: 7aff863ec972faf498f8555ec048ae96, type: 3}
+      propertyPath: waitTime
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4617251810716632943, guid: 7aff863ec972faf498f8555ec048ae96, type: 3}
+      propertyPath: scenepath
+      value: StartScene
+      objectReference: {fileID: 0}
     - target: {fileID: 8484980392033164307, guid: 7aff863ec972faf498f8555ec048ae96, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -326,10 +334,6 @@ PrefabInstance:
     - target: {fileID: 8484980392033164307, guid: 7aff863ec972faf498f8555ec048ae96, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8775372239107110111, guid: 7aff863ec972faf498f8555ec048ae96, type: 3}
-      propertyPath: waitTime
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

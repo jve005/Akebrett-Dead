@@ -4,18 +4,17 @@ using UnityEngine;
 
 public class SpawnVariables : MonoBehaviour
 {
+    [Header("Chunk Spawns")]
+    //Starting chunks start in chunkList
     public List<GameObject> chunkList = new List<GameObject>();
-    
     public List<GameObject> intermediate = new List<GameObject>();
-    private bool intermediateAdded = false;
-    
     public List<GameObject> hard = new List<GameObject>();
-    private bool hardAdded = false;
-    
     public List<GameObject> End = new List<GameObject>();
+    private bool intermediateAdded = false;
+    private bool hardAdded = false;
     private bool endAdded = false;
     
-    public float scrollSpeed = 0.1f;
+    public float scrollSpeed;
 
     public static float ToSingle(double value)
     {
@@ -24,19 +23,19 @@ public class SpawnVariables : MonoBehaviour
     
     private void FixedUpdate()
     {
-        if (Time.time > 25f && !intermediateAdded)
+        if (Time.timeSinceLevelLoad > 20f && !intermediateAdded)
         {
             chunkList.AddRange(intermediate);
             intermediateAdded = true;
         }
         
-        if (Time.time > 90f && !hardAdded)
+        if (Time.timeSinceLevelLoad > 40f && !hardAdded)
         {
             chunkList.AddRange(hard);
             hardAdded = true;
         }
 
-        if (Time.time > 180f && !endAdded)
+        if (Time.timeSinceLevelLoad > 80f && !endAdded)
         {
             chunkList.AddRange(End);
             endAdded = true;
