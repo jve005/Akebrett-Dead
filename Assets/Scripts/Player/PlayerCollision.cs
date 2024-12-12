@@ -6,6 +6,7 @@ public class PlayerCollision : MonoBehaviour
     public GameObject playerSprite;
     public GameObject shadow;
     public Vector3 shadowPosition;
+    public Animator playerAnimator;
 
     private bool airborne = false;
     private float jumpLength = 1.5f;
@@ -58,6 +59,7 @@ public class PlayerCollision : MonoBehaviour
             {
                 //Add death animation
                 print("Lose");
+                playerAnimator.SetBool("IsAlive", false);
                 SceneManager.LoadScene("DeathScreen");
             }
 

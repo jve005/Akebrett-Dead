@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "NEW_MainMenu_Background_AkebrettD\xD8D_0": 7965546185823504809
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
