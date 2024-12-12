@@ -11,11 +11,6 @@ public class StartSceneController : MonoBehaviour
     //Time to wait before you're allowed to click out
     public float waitTime = 5f;
 
-    void Start()
-    {
-        //animator.Play();
-    }
-
     void LoadNextScene()
     {
         SceneManager.LoadScene(scenepath);

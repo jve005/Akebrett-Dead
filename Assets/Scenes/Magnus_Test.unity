@@ -462,7 +462,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1978076312067561685, guid: 286052ed775af7a4e9b9281e33623c46, type: 3}
       propertyPath: hard.Array.size
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1978076312067561685, guid: 286052ed775af7a4e9b9281e33623c46, type: 3}
       propertyPath: 'End.Array.data[0]'
@@ -481,8 +481,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 2764088213797799001, guid: 2f6560cb38647e743b2652c893e0c5d6, type: 3}
     - target: {fileID: 1978076312067561685, guid: 286052ed775af7a4e9b9281e33623c46, type: 3}
+      propertyPath: 'hard.Array.data[1]'
+      value: 
+      objectReference: {fileID: 2764088213797799001, guid: 2f6560cb38647e743b2652c893e0c5d6, type: 3}
+    - target: {fileID: 1978076312067561685, guid: 286052ed775af7a4e9b9281e33623c46, type: 3}
       propertyPath: chunkList.Array.size
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 1978076312067561685, guid: 286052ed775af7a4e9b9281e33623c46, type: 3}
       propertyPath: 'chunkList.Array.data[1]'
@@ -507,7 +511,7 @@ PrefabInstance:
     - target: {fileID: 1978076312067561685, guid: 286052ed775af7a4e9b9281e33623c46, type: 3}
       propertyPath: 'chunkList.Array.data[6]'
       value: 
-      objectReference: {fileID: 2764088213797799001, guid: eadfbb9a8b3912c44bbb609fe68e0d79, type: 3}
+      objectReference: {fileID: 2764088213797799001, guid: aede4d24d4325fb46aec35f9b6b302d5, type: 3}
     - target: {fileID: 1978076312067561685, guid: 286052ed775af7a4e9b9281e33623c46, type: 3}
       propertyPath: 'chunkList.Array.data[7]'
       value: 
@@ -580,6 +584,10 @@ PrefabInstance:
     - target: {fileID: 6772982649870029141, guid: 5e87ff4f841fc8448ad83fe2d7658d65, type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7667708419617797780, guid: 5e87ff4f841fc8448ad83fe2d7658d65, type: 3}
+      propertyPath: moveSpeed
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7667708419617797780, guid: 5e87ff4f841fc8448ad83fe2d7658d65, type: 3}
       propertyPath: playerSpot

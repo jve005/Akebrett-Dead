@@ -23,19 +23,21 @@ public class SpawnVariables : MonoBehaviour
     
     private void FixedUpdate()
     {
-        if (Time.timeSinceLevelLoad > 20f && !intermediateAdded)
+        //It takes about 12 secs to finish Tutorial Chunk
+        
+        if (Time.timeSinceLevelLoad > 40f && !intermediateAdded)
         {
             chunkList.AddRange(intermediate);
             intermediateAdded = true;
         }
         
-        if (Time.timeSinceLevelLoad > 40f && !hardAdded)
+        if (Time.timeSinceLevelLoad > 80f && !hardAdded)
         {
             chunkList.AddRange(hard);
             hardAdded = true;
         }
 
-        if (Time.timeSinceLevelLoad > 80f && !endAdded)
+        if (Time.timeSinceLevelLoad > 150f && !endAdded)
         {
             chunkList.AddRange(End);
             endAdded = true;
@@ -43,5 +45,7 @@ public class SpawnVariables : MonoBehaviour
 
         //Starts at less than 4, reaches 10 at 125 secs
         scrollSpeed = 2 * ToSingle(Math.Log(Time.timeSinceLevelLoad, 5)) + 4f;
+        
+        print(Time.timeSinceLevelLoad);
     }
 }

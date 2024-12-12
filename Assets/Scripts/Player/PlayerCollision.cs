@@ -7,7 +7,7 @@ public class PlayerCollision : MonoBehaviour
     public GameObject shadow;
     public Vector3 shadowPosition;
 
-    public bool airborne = false;
+    private bool airborne = false;
     private float jumpLength = 1.5f;
     private float jumpTime = 0f;
     private Vector3 playerScaleChange = new Vector3(0.02f, 0.02f, 0.02f);
