@@ -573,6 +573,18 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2672347676754101555, guid: 5e87ff4f841fc8448ad83fe2d7658d65, type: 3}
+      propertyPath: 'wayPoint.Array.data[0]'
+      value: 
+      objectReference: {fileID: 264352928}
+    - target: {fileID: 2672347676754101555, guid: 5e87ff4f841fc8448ad83fe2d7658d65, type: 3}
+      propertyPath: 'wayPoint.Array.data[1]'
+      value: 
+      objectReference: {fileID: 264352927}
+    - target: {fileID: 2672347676754101555, guid: 5e87ff4f841fc8448ad83fe2d7658d65, type: 3}
+      propertyPath: 'wayPoint.Array.data[2]'
+      value: 
+      objectReference: {fileID: 264352926}
     - target: {fileID: 3213003947983212893, guid: 5e87ff4f841fc8448ad83fe2d7658d65, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -592,11 +604,11 @@ PrefabInstance:
     - target: {fileID: 7667708419617797780, guid: 5e87ff4f841fc8448ad83fe2d7658d65, type: 3}
       propertyPath: playerSpot
       value: 
-      objectReference: {fileID: 6564212206000054148}
+      objectReference: {fileID: 0}
     - target: {fileID: 7667708419617797780, guid: 5e87ff4f841fc8448ad83fe2d7658d65, type: 3}
       propertyPath: rigidBody2D
       value: 
-      objectReference: {fileID: 6564212206000054147}
+      objectReference: {fileID: 0}
     - target: {fileID: 7667708419617797780, guid: 5e87ff4f841fc8448ad83fe2d7658d65, type: 3}
       propertyPath: wayPoint.Array.size
       value: 3
@@ -666,16 +678,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e87ff4f841fc8448ad83fe2d7658d65, type: 3}
---- !u!50 &6564212206000054147 stripped
-Rigidbody2D:
-  m_CorrespondingSourceObject: {fileID: 8294468069483718185, guid: 5e87ff4f841fc8448ad83fe2d7658d65, type: 3}
-  m_PrefabInstance: {fileID: 6564212206000054146}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &6564212206000054148 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 8846410033740010843, guid: 5e87ff4f841fc8448ad83fe2d7658d65, type: 3}
-  m_PrefabInstance: {fileID: 6564212206000054146}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

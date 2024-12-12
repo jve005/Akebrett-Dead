@@ -45,7 +45,5 @@ public class SpawnVariables : MonoBehaviour
 
         //Starts at less than 4, reaches 10 at 125 secs
         scrollSpeed = 2 * ToSingle(Math.Log(Time.timeSinceLevelLoad, 5)) + 4f;
-        
-        print(Time.timeSinceLevelLoad);
     }
 }
