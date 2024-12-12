@@ -4,6 +4,7 @@ using UnityEngine.Serialization;
 
 public class PlayerController : MonoBehaviour
 {
+    public Animator animator;
     public Rigidbody2D rigidBody2D;
     private Vector2 _direction;
     public float moveSpeed = 5f;
@@ -25,6 +26,7 @@ public class PlayerController : MonoBehaviour
             transform.localScale = transform.position.x > playerSpot.position.x ? 
                 new Vector2(1, 1) : new Vector2(-1, 1);
         }
+        animator.SetFloat("Movement", _direction.x);
 
         if (Keyboard.current.aKey.wasPressedThisFrame && _wayPointIndex != 0)
         {
