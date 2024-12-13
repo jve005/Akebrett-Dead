@@ -5,11 +5,15 @@ using UnityEngine.Serialization;
 public class InputActions : MonoBehaviour
 {
     private InputSystem_Actions _inputSystem;
-    public float speed;
+    public float moveDir;
 
     private void Update()
     {
-        speed = _inputSystem.Player.Move.ReadValue<Vector2>().x;
+        if (_inputSystem.Player.Move.WasPressedThisFrame())
+        {
+            moveDir = _inputSystem.Player.Move.ReadValue<Vector2>().x;
+        }
+        else {moveDir = 0;}
     }
 
     private void Awake() { _inputSystem = new InputSystem_Actions(); }

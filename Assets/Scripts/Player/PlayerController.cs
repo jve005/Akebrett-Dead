@@ -10,6 +10,7 @@ public class PlayerController : MonoBehaviour
     private Vector2 _direction;
     public float moveSpeed = 5f;
     public Transform playerSpot;
+    public float moveDir;
     [SerializeField] public Transform[] wayPoint;
     private int _wayPointIndex = 1;
     
@@ -30,19 +31,20 @@ public class PlayerController : MonoBehaviour
         }
         _animator.SetFloat("Movement", _direction.x);
 
-        if (Keyboard.current.aKey.wasPressedThisFrame && _wayPointIndex != 0)
+        if (moveDir < 0 && _wayPointIndex != 0)
         {
             _audio.Play();
             _wayPointIndex--;
             playerSpot = wayPoint[_wayPointIndex];
         }
 
-        if (Keyboard.current.dKey.wasPressedThisFrame && _wayPointIndex != wayPoint.Length - 1)
+        if (moveDir > 0 && _wayPointIndex != wayPoint.Length - 1)
         {
             _audio.Play();
             _wayPointIndex++;
             playerSpot = wayPoint[_wayPointIndex];
         }
+        moveDir = GetComponent<InputActions>().moveDir;
     }
 
     void FixedUpdate()
