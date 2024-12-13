@@ -14,6 +14,8 @@ public class SpawnVariables : MonoBehaviour
     private bool hardAdded = false;
     private bool endAdded = false;
     
+    public bool isScrolling = true;
+    
     public float scrollSpeed;
 
     public static float ToSingle(double value)
@@ -25,25 +27,28 @@ public class SpawnVariables : MonoBehaviour
     {
         //It takes about 12 secs to finish Tutorial Chunk
         
-        if (Time.timeSinceLevelLoad > 40f && !intermediateAdded)
+        if (Time.timeSinceLevelLoad > 50f && !intermediateAdded)
         {
             chunkList.AddRange(intermediate);
             intermediateAdded = true;
         }
         
-        if (Time.timeSinceLevelLoad > 80f && !hardAdded)
+        if (Time.timeSinceLevelLoad > 90f && !hardAdded)
         {
             chunkList.AddRange(hard);
             hardAdded = true;
         }
 
-        if (Time.timeSinceLevelLoad > 150f && !endAdded)
+        if (Time.timeSinceLevelLoad > 160f && !endAdded)
         {
             chunkList.AddRange(End);
             endAdded = true;
         }
 
         //Starts at less than 4, reaches 10 at 125 secs
-        scrollSpeed = 2 * ToSingle(Math.Log(Time.timeSinceLevelLoad, 5)) + 4f;
+        if (isScrolling)
+        {
+            scrollSpeed = 2 * ToSingle(Math.Log(Time.timeSinceLevelLoad, 5)) + 4f;
+        }
     }
 }

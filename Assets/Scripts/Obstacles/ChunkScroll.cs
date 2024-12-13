@@ -6,18 +6,18 @@ public class ChunkScroll : MonoBehaviour
     //Keep all variables the same on all chunks
     private float scrollSpeed;
     
-    private GameObject VariableContainer;
+    private GameObject variableContainer;
 
     void Start()
     {
-        VariableContainer = GameObject.Find("VariableContainer");
+        variableContainer = GameObject.Find("VariableContainer");
         
     }
     
     void Update()
     {
         //Check SpawnVariables for speedcalculation
-        scrollSpeed = VariableContainer.GetComponent<SpawnVariables>().scrollSpeed;
+        scrollSpeed = variableContainer.GetComponent<SpawnVariables>().scrollSpeed;
         transform.Translate((Vector2.up * scrollSpeed * Time.deltaTime));
     }
     //Speed should start at around 5 and end at around 10

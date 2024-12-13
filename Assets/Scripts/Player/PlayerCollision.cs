@@ -5,8 +5,13 @@ public class PlayerCollision : MonoBehaviour
 {
     public GameObject playerSprite;
     public GameObject shadow;
+    public GameObject handle;
     public Vector3 shadowPosition;
     public Animator playerAnimator;
+    public GameObject variableContainer;
+    
+    public AudioSource _audioSource;
+    public AudioClip deathSound;
 
     private bool airborne = false;
     private float jumpLength = 1.5f;
@@ -15,6 +20,11 @@ public class PlayerCollision : MonoBehaviour
     private Vector3 shadowmoveChange = new Vector3(0, -0.1f, 0);
 
 
+    void Die()
+    {
+        SceneManager.LoadScene("DeathScreen");
+    }
+    
     void Start()
     {
         playerScaleChange = playerScaleChange / jumpLength;
@@ -53,14 +63,17 @@ public class PlayerCollision : MonoBehaviour
         if (!airborne)
         {
             print("Player collision");
-            //Rocks, Trees, other children
-            //For now it sends you to DeathScreen immediately, it needs to wait for animation
             if (collision.gameObject.tag == "Death")
             {
-                //Add death animation
                 print("Lose");
                 playerAnimator.SetBool("IsAlive", false);
-                SceneManager.LoadScene("DeathScreen");
+                variableContainer.GetComponent<SpawnVariables>().isScrolling = false;
+                Destroy(handle);
+                Destroy(shadow);
+                Destroy(collision);
+                _audioSource.PlayOneShot(deathSound);
+                _audioSource.volume = 1f;
+                Invoke("Die", 0.6f);
             }
 
             if (collision.gameObject.tag == "Ramp")
