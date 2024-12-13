@@ -36,4 +36,9 @@ public class StartSceneController : MonoBehaviour
             }
         }
     }
+    public void QuitGame()
+    {
+        print("Exiting game");
+        Application.Quit();
+    }
 }
