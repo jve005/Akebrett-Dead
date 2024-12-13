@@ -127,9 +127,21 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 473300226640824244, guid: b020d8ea8319b6a4db246c27c406fe4a, type: 3}
-      propertyPath: m_Enabled
+      propertyPath: Loop
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 473300226640824244, guid: b020d8ea8319b6a4db246c27c406fe4a, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 473300226640824244, guid: b020d8ea8319b6a4db246c27c406fe4a, type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 126bd88028cc81249992683f3ad9dd83, type: 3}
+    - target: {fileID: 473300226640824244, guid: b020d8ea8319b6a4db246c27c406fe4a, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 126bd88028cc81249992683f3ad9dd83, type: 3}
     - target: {fileID: 1627042701211549134, guid: b020d8ea8319b6a4db246c27c406fe4a, type: 3}
       propertyPath: m_Name
       value: PixelPerfCamera
