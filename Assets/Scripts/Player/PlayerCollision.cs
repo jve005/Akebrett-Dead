@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerCollision : MonoBehaviour
 {
+    public GameObject player;
     public GameObject playerSprite;
     public GameObject shadow;
     public GameObject handle;

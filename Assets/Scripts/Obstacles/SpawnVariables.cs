@@ -50,5 +50,9 @@ public class SpawnVariables : MonoBehaviour
         {
             scrollSpeed = 2 * ToSingle(Math.Log(Time.timeSinceLevelLoad, 5)) + 4f;
         }
+        else
+        {
+            scrollSpeed = 0;
+        }
     }
 }

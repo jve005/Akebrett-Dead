@@ -31,8 +31,8 @@ public class StartSceneController : MonoBehaviour
             if (Keyboard.current.anyKey.wasPressedThisFrame || Gamepad.current != null)
             {
                 ritaAnimator.Play("RitaStartAnimation");
-                Invoke("PlaySnow", 2f);
-                Invoke("LoadNextScene", 4f);
+                Invoke("PlaySnow", 1f);
+                Invoke("LoadNextScene", 2.15f);
             }
         }
     }
